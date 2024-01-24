@@ -1,0 +1,35 @@
+{
+    "language": "PT",
+
+    "title_site": "Portfólio - Erika de Almeida Ramos",
+    "meta_description_site": "Desenvolvimento de sistemas, sites e aplicativos",
+
+    "menu_header_home": "Início",
+    "menu_header_about": "Sobre",
+    "menu_header_projects": "Projetos",
+
+    "home_title": "Desenvolvedora fullstack",
+    "home_description": "Desenvolvimento de sistemas, sites e aplicativos",
+
+    "about_title": "Erika de Almeida Ramos",
+    "about_description": "MBA com mais de 5 anos de experiência profissional, atuando em projetos para diversos tipos de empresa.",
+
+    "project_dindo_e_pet_title": "Dindo & Pet",
+    "project_dindo_e_pet_description": "Aplicativo desenvolvido com React Native, Docker e Spring Boot para apadrinhamento de pets",
+    "project_risecode_title": "Risecode",
+    "project_risecode_description": "Sistema desenvolvido WEB com PHP e aplicativo com Ionic para o ensino de informática para crianças",
+    "project_smart_booking_title": "Smart Booking",
+    "project_smart_booking_description": "Chatbot para reserva de quartos de hotel, feito com Java, Jade e agentes inteligentes",
+
+    "footer_copyright": "Erika 2024 © Todos os direitos reservados",
+
+    "alt_mobile_menu_switch": "Menu hamburguer de abertura de menu",
+    "alt_photo_header": "Ilustração da marca Erika, contendo uma escultura da deusa romana Flora.",
+    "alt_linkedin": "Ir para o LinkedIn",
+    "alt_github": "Ir para o GitHub",
+    "alt_project_dindo_e_pet": "Imagem demonstrativa do projeto Dindo & Pet para apadrinhamento de pets. A imagem mostra uma parte da tela de login.",
+    "alt_project_risecode": "Imagem demonstrativa do projeto que mostra um banner com o logo do Risecode.",
+    "alt_project_smart_booking": "Imagem demonstrativa do projeto que mostra o logo do Smart Booking.",
+
+    "change_language_aria_label": "Mudar linguagem do site"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "erika-portfolio",
+  "version": "1.0.0",
+  "description": "Portfólio Erika de Almeida Ramos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-dev": "sass --no-source-map --watch --update --style=expanded resources/scss:resources/css",
+    "sass-prod": "sass --style=compressed resources/scss:resources/css"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Erika de Almeida Ramos",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}

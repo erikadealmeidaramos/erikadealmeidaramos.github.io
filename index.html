@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n='{ "key": "title_site"}'>Erika - Fullstack developer</title>
+    <meta name="description" content="Portifólio de Erika. Fullstack developer." data-i18n='{ "key": "meta_description_site", "typeKey": "content" }'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/css/main.css">
+    <script src="./resources/js/index.js"></script>
+</head>
+<body>
+    <header class="header-menu">
+        <div class="wrapper">
+            <nav id="nav-menu-links" class="header-menu-navigation">
+                <ul>
+                    <li><a href="#home" data-i18n='{ "key": "menu_header_home" }'></a></li>
+                    <li><a href="#about" data-i18n='{ "key": "menu_header_about" }'></a></li>
+                    <li><a href="#projects" data-i18n='{ "key": "menu_header_projects" }'></a></li>
+                </ul>
+            </nav>
+            <div class="switches">
+                <div class="switch-language-content">
+                    <button type="button" onclick="toggleLangSwitchVisibility()" name="switch-language" class="switch-language" id="switch-language" aria-expanded="false" data-i18n='{ "key": "change_language_aria_label", "typeKey": "aria-label" }'>
+                        <img src="./resources/imgs/icons/language-icon.svg" width="23" height="23" alt="" aria-hidden="true">
+                        <span data-i18n='{ "key": "language" }'></span>
+                    </button>
+                    <div class="languages" id="langs-content">
+                        <button type="button" onclick="changeLanguage('pt')">Português</button>
+                        <button type="button" onclick="changeLanguage('en')">English</button>  
+                    </div>
+                </div>
+            </div>
+            <button type="button" id="mobile-menu-switch" class="mobile-menu-switch" onclick="toggleMenuHeader()" aria-expanded="false">
+                <img src="./resources/imgs/icons/hamburger-menu-icon.svg" width="40" height="40" alt="" data-i18n='{ "key": "alt_mobile_menu_switch", "typeKey": "alt" }'>
+            </button>
+        </div>
+    </header>
+    <main id="main">
+        <section class="home" id="home" aria-label="Home">
+            <div class="container wrapper">
+                
+            </div>
+        </section>
+        <section class="about" id="about" aria-label="About">
+            <div class="container wrapper">
+
+            </div>
+        </section>
+        <section class="projects" id="projects" aria-label="Projects">
+            <div class="container wrapper">
+                
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="content wrapper">
+        </div>
+    </footer>
+</body>
+</html>
