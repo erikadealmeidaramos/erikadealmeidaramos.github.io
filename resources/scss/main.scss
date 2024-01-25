@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    scroll-behavior: smooth;
     transition: all 0.5s;
 }
 
@@ -34,9 +35,27 @@ body, button {
      }
 }
 
+::selection {
+    background-color: var(--accent-color);
+    color: var(--font-color-light);
+  }
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: var(--bakcground-color-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--accent-color);
+    border-radius: 25px;
+}
+
 @import './variables';
 @import './_header';
-/*@import './home';
-@import './about';
+@import './home';
+/*@import './about';
 @import './projects';
 @import './footer';*/

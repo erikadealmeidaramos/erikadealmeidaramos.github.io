@@ -7,7 +7,30 @@ document.addEventListener("DOMContentLoaded", async () => {
   setActiveLink();
 
   window.addEventListener("hashchange", setActiveLink);
+
+  window.addEventListener('scroll', addMenuBorder);
+
+  typeWrite(document.querySelector(".typewriter"));
 });
+
+function typeWrite(element) {
+  const arrayText = element.innerHTML.split("");
+  element.innerHTML = " ";
+  arrayText.forEach(function (letter, i) {
+    setTimeout(function () {
+      element.innerHTML += letter;
+    }, 75 * i);
+  });
+}
+
+function addMenuBorder() {
+  const menu = document.getElementsByClassName('header-menu')[0];
+  if (window.scrollY > 20) { 
+    menu.classList.add('scrolled');
+  } else {
+    menu.classList.remove('scrolled');
+  }
+};
 
 function setActiveLink() {
   const currentSection = getCurrentSection();
