@@ -2,7 +2,6 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: var(--bakcground-color);
     height: 128px;
     display: flex;
     justify-content: right;
@@ -173,7 +172,7 @@
 
                     button {
                         min-height: 32px;
-                        background-color: var(--bakcground-color-secondary);
+                        background-color: var(--bakcground-color-gray);
                         color: var(--font-color-primary);
                         border: none;
                         border-radius: 8%;

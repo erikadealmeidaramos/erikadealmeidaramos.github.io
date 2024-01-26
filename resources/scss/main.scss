@@ -5,11 +5,15 @@
     transition: all 0.5s;
 }
 
+*:focus {
+    outline: none;
+}
+
 body, button {
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-
+    background-color: var(--background-blurred);
     animation: fadeInAnimation ease-in-out 0.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -56,6 +60,6 @@ body, button {
 @import './variables';
 @import './_header';
 @import './home';
-/*@import './about';
+@import './about';
 @import './projects';
-@import './footer';*/
+/*@import './footer';*/

@@ -1,33 +1,44 @@
 .home{
-    margin-top: 200px;
+    margin-top: 164px;
     display: flex;
     justify-content: center;
     align-items: start;
     height: 95vh;
+    background-image: url('../imgs/glassmorphism-items.svg');
+    background-repeat: no-repeat;
+    background-position: 0 20%;
+    background-size: contain 80%;
 
     .container {
         display: flex;
         flex-direction: row;
+        background-color: var(--background-blurred-transparent);
+        backdrop-filter: blur(50px);
+        -webkit-backdrop-filter: blur( 50px );
+        height: 100%;
+        
 
         .introduction{
             margin-top: 8%;
+            margin-left: 0;
+            justify-content: center;
             width: 100%;
         }
 
-        .homeIllustration{
+        .home-illustration{
             flex-direction: column;
             position: relative;
             top: 0;
             left: 0;
             width: 80%;
 
-            .backgroundHomeIllustration{
+            .background-home-illustration{
                 position: relative;
                 top: 0;
                 left: 0;
             }
 
-            .frontHomeIllustration{
+            .front-home-illustration{
                 position: absolute;
                 top: 30px;
                 left: 20%;
@@ -98,7 +109,7 @@
              }
         }
 
-        .contactButton{
+        .contact-button{
             width: 12em;
             height: 70px;
             border-radius: 50px;
@@ -119,17 +130,16 @@
         @media (max-width: 767.98px) {
             flex-direction: column;
 
-            .homeIllustration{
+            .home-illustration{
                 width: 100%;
-                margin-bottom: 64px;
             }
 
-            .backgroundHomeIllustration{
+            .background-home-illustration{
                 margin-top: 64px;
                 width: 100%;
             }   
 
-            .frontHomeIllustration{
+            .front-home-illustration{
                 margin-top: 64px;
             }  
         }
@@ -138,5 +148,8 @@
 
     @media (max-width: 767.98px) {
         margin-top: 128px;
+        background-position: 0 0;
+        background-size: contain 10%;
+        height: auto;
     }
 }
