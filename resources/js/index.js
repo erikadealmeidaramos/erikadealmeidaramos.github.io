@@ -23,6 +23,28 @@ function typeWrite(element) {
   });
 }
 
+function scrollCards(direction) {
+  const container = document.querySelector('.cards');
+  const scrollAmount = 300; 
+  const currentScroll = container.scrollLeft;
+
+  if (direction === 'next') {
+    container.scrollTo({
+      left: currentScroll + scrollAmount,
+      behavior: 'smooth'
+    });
+    document.querySelector('.previous-button').classList.remove('disabled');
+    document.querySelector('.next-button').classList.add('disabled');
+  } else if (direction === 'prev') {
+    container.scrollTo({
+      left: currentScroll - scrollAmount,
+      behavior: 'smooth'
+    });
+    document.querySelector('.previous-button').classList.add('disabled');
+    document.querySelector('.next-button').classList.remove('disabled');
+  }
+}
+
 function addMenuBorder() {
   const menu = document.getElementsByClassName('header-menu')[0];
   if (window.scrollY > 20) { 

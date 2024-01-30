@@ -1,0 +1,39 @@
+{
+    "language": "ES",
+
+    "title_site": "Portafolio - Erika de Almeida Ramos",
+    "meta_description_site": "Desarrollo de sistemas, sitios web y aplicaciones",
+
+    "menu_header_home": "Comenzar",
+    "menu_header_about": "Acerca de",
+    "menu_header_projects": "Proyectos",
+
+    "home_title": "Desarrollador fullstack",
+    "home_description": "Desarrollo de sistemas, sitios web y aplicaciones",
+    "home_action_button": "Entre en contacto",
+
+    "about_title": "Erika de Almeida Ramos",
+    "about_description": "MBA con más de 5 años de experiencia profesional, trabajando en proyectos para diferentes tipos de empresas.",
+
+    "project_dindo_e_pet_title": "Dindo & Pet",
+    "project_dindo_e_pet_description": "Aplicación desarrollada con React Native, Docker y Spring Boot para apadrinamiento de mascotas",
+    "project_risecode_title": "Risecode",
+    "project_risecode_description": "Sistema desarrollado WEB con PHP y aplicación con Ionic para la enseñanza de informática a niños",
+    "project_smart_booking_title": "Smart Booking",
+    "project_smart_booking_description": "Chatbot para reserva de habitaciones de hotel, realizado con Java, Jade y agentes inteligentes",
+    "project_superverse_title": "Superverse",
+    "project_superverse_description": "Juego que compara habilidades entre personajes",
+
+    "footer_copyright": "Erika 2024 © Todos los derechos reservados",
+
+    "alt_mobile_menu_switch": "Menú apertura menú hamburguesa",
+    "alt_photo_header": "Ilustración de la marca Erika, que contiene una escultura de la diosa romana Flora.",
+    "alt_linkedin": "Ir a LinkedIn",
+    "alt_github": "Ir a GitHub",
+    "alt_project_dindo_e_pet": "Imagen demostrativa del proyecto Dindo e Pet para el apadrinamiento de mascotas. La imagen muestra una parte de la pantalla de inicio de sesión.",
+    "alt_project_risecode": "Imagen demostrativa del proyecto que muestra un banner con el logo de Risecode.",
+    "alt_project_smart_booking": "Imagen demostrativa del proyecto que muestra el logo de Smart Booking.",
+    "alt_project_superverse": "Imagen demostrativa del proyecto Superverse. La imagen muestra la pantalla de inicio.",
+
+    "change_language_aria_label": "Cambiar idioma del sitio web"
+}
