@@ -1,0 +1,39 @@
+{
+    "language": "EN",
+
+    "title_site": "Portfolio - Erika de Almeida Ramos",
+    "meta_description_site": "Development of systems, websites and applications",
+
+    "menu_header_home": "Home",
+    "menu_header_about": "About",
+    "menu_header_projects": "Projects",
+
+    "home_title": "Fullstack developer",
+    "home_description": "Development of systems, websites and mobile applications",
+    "home_action_button": "Contact",
+
+    "about_title": "Erika de Almeida Ramos",
+    "about_description": "MBA with more than 5 years of professional experience, working on projects for different types of companies.",
+
+    "project_dindo_e_pet_title": "Dindo & Pet",
+    "project_dindo_e_pet_description": "Application developed with React Native, Docker and Spring Boot for pet sponsorship",
+    "project_risecode_title": "Risecode",
+    "project_risecode_description": "System developed WEB with PHP and application with Ionic for teaching computer science to children",
+    "project_smart_booking_title": "Smart Booking",
+    "project_smart_booking_description": "Chatbot for hotel room booking, made with Java, Jade and intelligent agents",
+    "project_superverse_title": "Superverse",
+    "project_superverse_description": "Game that compares skill between characters",
+
+    "footer_copyright": "Erika 2024 © All rights reserved",
+
+    "alt_mobile_menu_switch": "Opening hamburger menu",
+    "alt_photo_header": "Illustration from the Erika brand, featuring a sculpture of the Roman goddess Flora.",
+    "alt_linkedin": "Go to LinkedIn",
+    "alt_github": "Go to GitHub",
+    "alt_project_dindo_e_pet": "Demonstrative image of the Dindo & Pet project for pet sponsorship. The image shows a part of the login screen.",
+    "alt_project_risecode": "Demonstrative image of the project that shows a banner with the Risecode logo.",
+    "alt_project_smart_booking": "Demonstrative image of the project that shows the Smart Booking logo.",
+    "alt_project_superverse": "Imagen demostrativa del proyecto que muestra el logo de Smart Booking.",
+
+    "change_language_aria_label": "Change website language"
+}

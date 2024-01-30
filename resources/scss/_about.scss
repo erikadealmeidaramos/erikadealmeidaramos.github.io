@@ -1,0 +1,110 @@
+.about {
+    width: 94%;
+    margin-left: 3%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    background-image: url('../imgs/mesh-1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin: 92px;
+
+        .about-description{
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+        }
+
+        .title {
+            font-size: 48px;
+            color: var(--font-color-primary);
+            font-weight: 600;
+            margin-bottom: 12px;
+            width: 50vw;
+
+            // Large devices (desktops, less than 1200px)
+            @media (max-width: 1199.98px) {
+                font-size: 40px;
+                width: 40vw;
+            }
+
+            // Small devices (landscape phones, less than 768px)
+            @media (max-width: 767.98px) {
+               font-size: 36px;
+               width: 100%;
+            }
+        }
+
+        .description {
+            font-size: 24px;
+            color: var(--font-color-secondary);
+            font-weight: 400;
+            width: 40vw;
+
+            // Large devices (desktops, less than 1200px)
+            @media (max-width: 1199.98px) {
+                font-size: 20px;
+            }
+
+            // Small devices (landscape phones, less than 768px)
+             @media (max-width: 767.98px) {
+                width: 80vw;
+             }
+        }
+
+        .badges{
+            margin-top: 64px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+
+            span {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 5em;
+                background-color: var(--background-badges);
+                border-radius: 25px;
+                padding: 1.5em 1.5em;
+                border: 1px solid var(--border-badges);
+
+                &:hover{
+                    background-color: var(--accent-color);
+                    
+                    svg.social-network-badge path{
+                        fill: var(--font-color-light);
+                    }
+                }
+            }
+        }
+
+        // Large devices (desktops, less than 1200px)
+        @media (max-width: 1199.98px) {
+            margin: 24px;
+        }
+        // Large devices (desktops, less than 1200px)
+        @media (max-width: 767.98px) {
+            margin: 64px;
+            flex-direction: column;
+        }
+    }
+
+    // Small devices (landscape phones, less than 768px)
+    @media (max-width: 767.98px) {
+        & {
+            height: 150vh;
+            margin-top: 64px;
+            background-image: url('../imgs/mesh-1-rotated.svg');
+            background-size: 30em;
+        }
+    }
+}

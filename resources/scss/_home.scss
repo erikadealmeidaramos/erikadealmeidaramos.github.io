@@ -1,0 +1,155 @@
+.home{
+    margin-top: 164px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 95vh;
+    background-image: url('../imgs/glassmorphism-items.svg');
+    background-repeat: no-repeat;
+    background-position: 0 20%;
+    background-size: contain 80%;
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        background-color: var(--background-blurred-transparent);
+        backdrop-filter: blur(50px);
+        -webkit-backdrop-filter: blur( 50px );
+        height: 100%;
+        
+
+        .introduction{
+            margin-top: 8%;
+            margin-left: 0;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .home-illustration{
+            flex-direction: column;
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 80%;
+
+            .background-home-illustration{
+                position: relative;
+                top: 0;
+                left: 0;
+            }
+
+            .front-home-illustration{
+                position: absolute;
+                top: 30px;
+                left: 20%;
+                animation: floating 3s ease-in-out infinite;
+            }
+
+            @keyframes floating {
+                0%, 100% {
+                    transform: translateY(0); 
+                }
+                50% {
+                    transform: translateY(-25px); 
+                }
+            }
+        }
+
+        .title {
+            font-size: 48px;
+            color: var(--font-color-primary);
+            font-weight: 600;
+            margin-bottom: 12px;
+
+            // Large devices (desktops, less than 1200px)
+            @media (max-width: 1199.98px) {
+                font-size: 40px;
+            }
+
+            // Small devices (landscape phones, less than 768px)
+            @media (max-width: 767.98px) {
+               font-size: 36px;
+            }
+        }
+
+
+        .description {
+            font-size: 24px;
+            color: var(--font-color-secondary-light);
+            font-weight: 400;
+            width: 25vw;
+
+            @keyframes blink {
+                100% {
+                  opacity: 1;
+                }
+                50% {
+                  opacity: 0;
+                }
+              }
+              
+
+            &:after {
+                content: "|";
+                margin-left: 8px;
+                opacity: 1;
+                animation: blink 1s infinite;
+                color: var(--accent-color);
+            }
+
+
+            // Large devices (desktops, less than 1200px)
+            @media (max-width: 1199.98px) {
+                font-size: 20px;
+            }
+
+            // Small devices (landscape phones, less than 768px)
+             @media (max-width: 767.98px) {
+                width: 85vw;
+             }
+        }
+
+        .contact-button{
+            width: 12em;
+            height: 70px;
+            border-radius: 50px;
+            background: var(--accent-color);
+            color: var(--font-color-light);
+            font-size: 24px;
+            border: none;
+            cursor: pointer;
+            margin-top: 64px;
+
+            &:hover{
+                background-color: var(--font-color-light);
+                color: var(--accent-color);
+            }
+        }
+
+        // Small devices (landscape phones, less than 768px)
+        @media (max-width: 767.98px) {
+            flex-direction: column;
+
+            .home-illustration{
+                width: 100%;
+            }
+
+            .background-home-illustration{
+                margin-top: 64px;
+                width: 100%;
+            }   
+
+            .front-home-illustration{
+                margin-top: 64px;
+            }  
+        }
+
+    }
+
+    @media (max-width: 767.98px) {
+        margin-top: 128px;
+        background-position: 0 0;
+        background-size: contain 10%;
+        height: auto;
+    }
+}
