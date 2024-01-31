@@ -101,10 +101,9 @@
     // Small devices (landscape phones, less than 768px)
     @media (max-width: 767.98px) {
         & {
-            height: 150vh;
             margin-top: 64px;
             background-image: url('../imgs/mesh-1-rotated.svg');
-            background-size: 30em;
+            background-size: cover;
         }
     }
 }

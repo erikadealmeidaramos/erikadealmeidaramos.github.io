@@ -22,7 +22,7 @@
     "project_smart_booking_title": "Smart Booking",
     "project_smart_booking_description": "Chatbot for hotel room booking, made with Java, Jade and intelligent agents",
     "project_superverse_title": "Superverse",
-    "project_superverse_description": "Game that compares skill between characters",
+    "project_superverse_description": "Game that compares skill between characters, made with PHP, Java and Firebase",
 
     "footer_copyright": "Erika 2024 © All rights reserved",
 
@@ -33,7 +33,7 @@
     "alt_project_dindo_e_pet": "Demonstrative image of the Dindo & Pet project for pet sponsorship. The image shows a part of the login screen.",
     "alt_project_risecode": "Demonstrative image of the project that shows a banner with the Risecode logo.",
     "alt_project_smart_booking": "Demonstrative image of the project that shows the Smart Booking logo.",
-    "alt_project_superverse": "Imagen demostrativa del proyecto que muestra el logo de Smart Booking.",
+    "alt_project_superverse": "Demonstrative image of the Superverse project. The image shows the home screen.",
 
     "change_language_aria_label": "Change website language"
 }
